@@ -1,0 +1,109 @@
+[
+    {
+        "id":"0",
+        "name": "Cognitive Behavioral Therapy",
+        "img":"https://images.unsplash.com/photo-1482440308425-276ad0f28b19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "details": "CBT is a therapeutic approach that helps individuals identify and change negative thought patterns. It can be effective in promoting positive thinking and managing emotions.. ",
+        "price":"650"
+
+    },
+    {
+        "id":"1",
+        "name": "Spiritual Wellness",
+        "img":"https://images.unsplash.com/photo-1483095348487-53dbf97d8d5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "details": "Spiritual wellness is defined as expanding a sense of purpose and meaning in life, including one's morals and ethics. It involves religious activities.",
+        "price":"400"
+
+    }, 
+     
+    {
+        "id":"2",
+        "name": "Emotional Intelligence Training",
+        "img":"https://images.unsplash.com/photo-1508175749578-259ded3db070?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "details": "rograms that focus on developing emotional intelligence can help individuals recognize and regulate their emotions, leading to improved interpersonal relationships and better overall well-being.",
+        "price":"590"
+
+    },
+    {
+        "id":"3",
+        "name": "Acceptance of Imperfections",
+        "img":"https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "details": "Healthy self-esteem involves accepting that nobody is perfect. Individuals with high self-esteem are comfortable with their imperfections and are not overly critical of themselves.",
+        "price":"390"
+
+    },
+    
+    
+    {
+        "id":"4",
+        "name": "Anger Management",
+        "img":"https://images.unsplash.com/photo-1502139214982-d0ad755818d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "details":"Factors such as your personality, your coping style, your relationships, and your stress levels can all play a part in determining how much anger you experience in response to different situations and triggers. Some things that can trigger anger include: Conflicts in relationships. Family problems.",
+        "price":"950"
+
+    },
+    {
+        "id":"5",
+        "name": "Relationship",
+        "img":"https://images.unsplash.com/photo-1482092827359-98a27c7a33f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "details":"Relationship management refers to our ability to communicate clearly, maintain good relationships with others, connect with those from other cultures, work well in teams, and manage conflict. Relationship management relies on your ability to use the other three areas of EQ to manage relationships effectively.",
+        "price":"650"
+
+    },
+    {
+        "id":"6",
+        "name": "Communication",
+        "img":"https://images.unsplash.com/photo-1611019708499-995e850160fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=763&q=80",
+        "details":"Communication is the act of giving, receiving, and sharing information -- in other words, talking or writing, and listening or reading. Good communicators listen carefully, speak or write clearly, and respect different opinions.",
+        "price":"450"
+
+    },
+    {
+        "id":"7",
+        "name": "Think positive",
+        "img":"https://images.unsplash.com/photo-1484313544071-4d67c88b99be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+        "details":"Positive thinking just means that you approach unpleasantness in a more positive and productive way. You think the best is going to happen, not the worst. Positive thinking often starts with self-talk. Self-talk is the endless stream of unspoken thoughts that run through your head.",
+        "price":"500"
+
+    },
+    {
+        "id":"8",
+        "name": "Parenting",
+        "img":"https://images.unsplash.com/photo-1507652955-f3dcef5a3be5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "details": "Parenting or child rearing promotes and supports the physical, emotional, social, spiritual and intellectual development of a child from infancy to adulthood. Parenting refers to the intricacies of raising a child and not exclusively for a biological relationship.",
+        "price":"560"
+
+    },
+    
+    
+    {
+        "id":"9",
+        "name": "Stress Management Workshops",
+        "img":"https://images.unsplash.com/photo-1562776875-c8af826b1a29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "details": "Workshops that teach stress management techniques, such as time management, relaxation exercises, and boundary-setting, contribute to a more positive and balanced life.",
+        "price":"400"
+
+    },
+    {
+        "id":"10",
+        "name": "Life Coaching",
+        "img":"https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFwcHklMjBsaWZlfGVufDB8fDB8fHww",
+        "details": "Life coaches work with individuals to set goals, overcome challenges, and enhance various aspects of their lives, including promoting a positive mindset.",
+        "price":"750"
+
+    },
+    
+    {
+        "id":"11",
+        "name": "Gratitude Journaling",
+        "img":"https://images.unsplash.com/photo-1579591165250-987f23844669?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "details": "Keeping a gratitude journal, where individuals regularly write down things they are grateful for, is a simple yet effective practice to promote positive thinking.",
+        "price":"950"
+
+    }
+    
+    
+    
+
+
+]

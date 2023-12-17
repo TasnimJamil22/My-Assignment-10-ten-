@@ -1,0 +1,111 @@
+[
+    {
+        "id":"1",
+        "name":"Raisa Amin",
+        "profession":"PSYCHOLOGIST",
+        "degrees":"MS in Educational Psychology, DU",
+        "details":"Raisa Amin is a Professional Mental Health Practitioner, having experience in dealing with cases like relationship issue, depression, anxiety, study issue, behavior modification and any kinds of mental healing cases. Usually, she has an impressive success rates from the patients. Her empathic counselling sessions help patient to overcome from the particular situation.",
+        "img":"https://t4.ftcdn.net/jpg/02/45/28/17/360_F_245281721_2uYVgLSFnaH9AlZ1WWpkZavIcEEGBU84.jpg"
+
+    },
+    {
+        "id":"2",
+        "name":"Md. Robin",
+        "profession":"PSYCHOLOGIST",
+        "degrees":"B.S in Psychology (DU)",
+        "details":"Mr. Md. Robin is a versatile Consultant Psychologist, experienced in dealing with Several types of anxiety disorders, panic disorder, issues related to low self esteem, obsessive compulsive disorder (OCD), stress problems and Couple & Family issues with an impressive success rate. He can help you to deal with your real-life dilemmas & improve your personality with his full skills",
+        "img":"https://t3.ftcdn.net/jpg/02/45/28/06/360_F_245280684_kouG3lAvJVQyI6gOmgS24BdftIszi0EJ.jpg"
+
+    },
+    {
+        "id":"3",
+        "name":"Andrew Morison",
+        "profession":"PSYCHIATRIST",
+        "degrees":"B.S in Psychology",
+        "details":"",
+        "img":"https://t3.ftcdn.net/jpg/02/45/28/14/360_F_245281469_8BxP6VT7st0gj6qNfLUVVq1UJt0NfFEd.jpg"
+
+    },
+    {
+        "id":"4",
+        "name":"Robert Bruice",
+        "profession":"CHILD SPECIALIST",
+        "degrees":"B.S in Psychology",
+        "details":"",
+        "img":"https://t4.ftcdn.net/jpg/02/45/28/13/360_F_245281310_8MM6MbrHRvlsViICuhg6Lk1odT3QLBPK.jpg"
+
+    },
+    {
+        "id":"5",
+        "name":"Md. Sunvi",
+        "profession":"PSYCHIATRIST",
+        "degrees":"B.S in Psychology",
+        "details":"",
+        "img":"https://t3.ftcdn.net/jpg/02/45/28/06/360_F_245280684_kouG3lAvJVQyI6gOmgS24BdftIszi0EJ.jpg"
+
+    },
+    {
+        "id":"6",
+        "name":"Moon Zara",
+        "profession":"PSYCHIATRIST",
+        "degrees":"B.S in Psychology",
+        "details":"",
+        "img":"https://t4.ftcdn.net/jpg/02/45/28/17/360_F_245281721_2uYVgLSFnaH9AlZ1WWpkZavIcEEGBU84.jpg"
+
+    },
+    {
+        "id":"7",
+        "name":"D Thomas",
+        "profession":"CHILD SPECIALIST",
+        "degrees":"B.S in Psychology",
+        "details":"",
+        "img":"https://t3.ftcdn.net/jpg/02/45/28/14/360_F_245281469_8BxP6VT7st0gj6qNfLUVVq1UJt0NfFEd.jpg"
+
+    },
+    {
+        "id":"8",
+        "name":"Pascal",
+        "profession":"CHILD SPECIALIST",
+        "degrees":"B.S in Psychology",
+        "details":"",
+        "img":"https://t4.ftcdn.net/jpg/02/45/28/13/360_F_245281310_8MM6MbrHRvlsViICuhg6Lk1odT3QLBPK.jpg"
+
+    },
+    {
+        "id":"9",
+        "name":"Md Hanif",
+        "profession":"PSYCHIATRIST",
+        "degrees":"B.S in Psychology",
+        "details":"",
+        "img":"https://t3.ftcdn.net/jpg/02/45/28/06/360_F_245280684_kouG3lAvJVQyI6gOmgS24BdftIszi0EJ.jpg"
+
+    },
+    {
+        "id":"10",
+        "name":"Ridima Khan",
+        "profession":"CHILD SPECIALIST",
+        "degrees":"B.S in Psychology",
+        "details":"",
+        "img":"https://t4.ftcdn.net/jpg/02/45/28/17/360_F_245281721_2uYVgLSFnaH9AlZ1WWpkZavIcEEGBU84.jpg"
+
+    },
+    {
+        "id":"11",
+        "name":"Md Maheer Islam",
+        "profession":"PSYCHOLOGIST",
+        "degrees":"B.S in Psychology",
+        "details":"",
+        "img":"https://t3.ftcdn.net/jpg/02/45/28/14/360_F_245281469_8BxP6VT7st0gj6qNfLUVVq1UJt0NfFEd.jpg"
+
+    },
+    {
+        "id":"12",
+        "name":"Md Saad",
+        "profession":"PSYCHOLOGIST",
+        "degrees":"B.S in Psychology",
+        "details":"",
+        "img":"https://t4.ftcdn.net/jpg/02/45/28/13/360_F_245281310_8MM6MbrHRvlsViICuhg6Lk1odT3QLBPK.jpg"
+
+    }
+     
+]
