@@ -4,7 +4,7 @@ import React, { useRef, useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import auth from "../../firebase.init";
+import auth from "../../firebase.config";
 import loginimg from "../Images/loginimages/loginimg.jpg";
 import SocialLogin from "./SocialLogin/SocialLogin";
 
@@ -86,6 +86,7 @@ const Login = () => {
               Login
             </Button>
           </Form>
+           
           <p>
             New to Mindfulness?<Link to="/signup">Sign Up</Link>
           </p>

@@ -4,7 +4,7 @@ import React from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { useAuthState, useSignOut } from "react-firebase-hooks/auth";
 import { Link, NavLink } from "react-router-dom";
-import auth from "../../../firebase.init";
+import auth from "../../../firebase.config";
 import logo from "../../Images/logo3.png";
 
 const Header = () => {

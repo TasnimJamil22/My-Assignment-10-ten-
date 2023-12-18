@@ -9,7 +9,7 @@ import React, { useRef } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useNavigate, useLocation} from "react-router-dom";
-import auth from "../../../firebase.init";
+import auth from "../../../firebase.config";
 import loginimg2 from "../../Images/loginimages/loginimg.jpg";
 import SocialLogin from "../SocialLogin/SocialLogin";
 

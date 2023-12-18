@@ -1,7 +1,7 @@
 import React from 'react'; 
 import google from '../../Images/SocialLogin/google (1).png';
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
-import auth from '../../../firebase.init';
+import auth from '../../../firebase.config';
 import { useNavigate , useLocation} from 'react-router-dom';
 
 const SocialLogin = () => {
