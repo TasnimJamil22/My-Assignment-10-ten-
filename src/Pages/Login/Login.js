@@ -87,6 +87,8 @@ const Login = () => {
             </Button>
           </Form>
            
+            <p className="text-danger">{error?.message}</p>
+             
           <p>
             New to Mindfulness?<Link to="/signup">Sign Up</Link>
           </p>
