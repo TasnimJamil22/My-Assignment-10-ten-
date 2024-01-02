@@ -1,55 +1,48 @@
 import { faKey } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useRef, useState } from "react";
+import React, { useContext, useRef, useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import auth from "../../firebase.config";
+import auth from "../../Firebase/firebase.config";
 import loginimg from "../Images/loginimages/loginimg.jpg";
 import SocialLogin from "./SocialLogin/SocialLogin";
+import { AuthContext } from "../../Contexts/AuthProvider";
 
 const Login = () => {
+  const [error,setError] = useState('');
   const emailRef = useRef();
   const passwordRef = useRef(); 
+  const {user,login} = useContext(AuthContext);
    
   const navigate = useNavigate();
   const location = useLocation();
   var from = (location.state && location.state.from && location.state.from.pathname) || '/';
 
-  const [
-    signInWithEmailAndPassword,
-    user,
-    loading,
-    error,
-  ] = useSignInWithEmailAndPassword(auth); 
+   
 
-
-  
-  // if (error) {
-  //   return (
-  //     <div>
-  //       <p>Error: {error.message}</p>
-  //     </div>
-  //   );
-  // }
-  
-
+   
   const handleLogin = e =>{
       e.preventDefault();
       const email = emailRef.current.value;
       const password = passwordRef.current.value;
+      login(email,password)
+      .then(result => {
+        const user = result.user;
+            console.log(user);
+            navigate(from,{replace:true});
+            setError('');
+      })
+      .catch(error => setError(error.message))
        
-      signInWithEmailAndPassword(email,password);
        
    
   }
 
+  
   // if(user){
-  //   navigate(from, { replace: true });
+  //   navigate(from,{replace:true});
   // }
-  if(user){
-    navigate(from,{replace:true});
-  }
   return (
     <div>
       <div className="w-50 d-flex justify-content-center mx-auto mt-5  ">
@@ -87,7 +80,7 @@ const Login = () => {
             </Button>
           </Form>
            
-            <p className="text-danger">{error?.message}</p>
+            <p className="text-danger">{error}</p>
              
           <p>
             New to Mindfulness?<Link to="/signup">Sign Up</Link>

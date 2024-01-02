@@ -5,16 +5,18 @@ import {
   faSignIn,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useContext } from "react";
 import { Button, Form } from "react-bootstrap";
-import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
+import  { AuthContext }  from '../../../Contexts/AuthProvider'
 import { Link, useNavigate, useLocation} from "react-router-dom";
-import auth from "../../../firebase.config";
+import auth from "../../../Firebase/firebase.config";
 import loginimg2 from "../../Images/loginimages/loginimg.jpg";
 import SocialLogin from "../SocialLogin/SocialLogin";
 
+
 const SignUp = () => {
   const [error,setError] = useState('');
+  const {user,createUser} = useContext(AuthContext);
   const nameRef = useRef();
   const emailRef = useRef();
   const passwordRef = useRef();
@@ -22,62 +24,43 @@ const SignUp = () => {
   const location = useLocation();
   var from = (location.state && location.state.from && location.state.from.pathname) || '/';
   
-  const [
-    createUserWithEmailAndPassword,
-    user,
-    loading,
-    // error,
-  ] = useCreateUserWithEmailAndPassword(auth);
    
 
   
-  // console.log(error);
-  // if (error) {
-  //   return (
-  //     <div>
-  //       <p>Error: {error.message}</p>
-        
-  //     </div>
-  //   );
-    
-  // }
+   
 
   const handleSignUp = (e) => {
     e.preventDefault();
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
 
-    // if(password.length < 6){
-    //   setError('Password must be at least 6 characters')
-      
-    // }
-     
-
-    if(!/^(?=.*[A-Za-z]){8,}$/.test(password)){
-      setError('At least 1 alphabet,  Minimum 8 characters long');
-      
+    if(password.length < 6){
+      setError('Password must be at least 6 characters');
+      return;
     }
-    createUserWithEmailAndPassword(email, password);
-    
+    if(!/(?=.*[A-Z].*[A-Z])/.test(password)){
+      setError('Password must contain 2 uppercase');
+      return;
+    }
+    if(!/(?=.*[0-9].*[0-9])/.test(password)){
+      setError('Password must have 2 digits');
+      return;
+    }
 
-    // if(password){
-    //   setError('');
-    //  }
-
-    //  validate
-    //  if (!/[A-Z]/.test("password")) {
-    //  setError('Please add one uppercase in your password');
-    //  return;
-    //  }
+    createUser(email,password)
+    .then(result => {
+      const user = result.user;
+      navigate(from,{replace:true});
+      setError('');
+    })
+    .catch(err => setError(err.message))
      
-     
-        
-  };
+    };
 
   //redirect
-  if(user) {
-    navigate(from,{replace:true});
-  }
+  // if(user) {
+  //   navigate(from,{replace:true});
+  // }
 
   return (
     <div>

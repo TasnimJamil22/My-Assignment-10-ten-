@@ -2,7 +2,7 @@
 import { faLocation, faLocationDot, faPhone, fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import logo from "../../Images/logo3.png";
+import logo from "../../Pages/Images/logo3.png";
 
 const Footer = () => {
   return (
