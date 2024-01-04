@@ -3,7 +3,7 @@
 Mindfulness is a site for Mental health care.We focus on improving the overall quality of life for individuals.
 By addressing mental health concerns, people can experience increased happiness, satisfaction, and a sense of purpose in their lives.
 
-## live link:  https://healthcare-a-10.web.app/
+## live link:  https://unrivaled-daifuku-f02bfd.netlify.app
 
 Here are some features and functionalities of our mental health services:
 
