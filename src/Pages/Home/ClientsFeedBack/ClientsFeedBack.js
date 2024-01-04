@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 
 const ClientsFeedBack = () => {
     return (
-        <div className='my-5 py-5'>
+        <div className='my-5 py-5 text-center'>
             <h2 className='py-4'>Clients <span style={{color:'#929AAB'}}>Feedback</span></h2>
             <Carousel variant="dark">
       <Carousel.Item>
@@ -20,7 +20,7 @@ const ClientsFeedBack = () => {
       </Carousel.Item>
       <Carousel.Item>
       <img
-          className="d-block  rounded-circle mx-auto "
+          className="d-block  rounded-circle mx-auto"
           src="https://contact-centres.com/wp-content/uploads/2017/03/sjs.john_.agent_.image_.march_.2017-600x400.jpg"
           style={{height:"100px", width:"100px"}}
           alt="First slide"

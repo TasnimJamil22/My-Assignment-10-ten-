@@ -5,7 +5,7 @@ import { Accordion } from "react-bootstrap";
 
 const FAQ = () => {
   return (
-    <div className="bg-light py-5 mx-lg-5 rounded">
+    <div className="bg-light py-5 mx-lg-5 rounded text-center">
       <h2 style={{ color: "#474A56" }}>FAQ</h2>
       <div
         className="d-flex justify-content-center"
